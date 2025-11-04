@@ -1,0 +1,41 @@
+{
+  "name": "cis-1962-hw3-project-scaffolding-semf1",
+  "version": "1.0.0",
+  "description": "A TypeScript and Zod-based pizza validation package with CLI functionality.",
+  "main": "dist/validatePizza.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint ./src --ext .ts"
+  },
+  "keywords": [
+    "pizza",
+    "validation",
+    "zod",
+    "typescript"
+  ],
+  "author": "Sem",
+  "license": "ISC",
+  "bin": {
+    "pizza-validator": "./dist/src/cli.js"
+  },
+  "dependencies": {
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.39.0",
+    "globals": "^16.5.0",
+    "jest": "^30.2.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
+  }
+}
